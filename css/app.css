@@ -1,0 +1,12 @@
+/* 此模块会覆盖 bootstrap 框架样式 */
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler > i[class^="bi-"] {
+    margin-top:.5rem ;
+    margin-bottom: .5rem;
+    margin-right: 1rem;
+}
+
+

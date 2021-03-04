@@ -1,0 +1,36 @@
+@media (prefers-color-scheme: light) {
+    body {
+        background: #F0F0F0;
+    }
+
+    .bg-colorsync {
+        background: white !important;
+    }
+
+    .text-primary-colorsync {
+        color: black !important;
+    }
+
+    .text-secondary-colorsync {
+
+    }
+    .text-navbar-brand-colorsync{
+        color: black !important;
+    }
+    .bi-colorsync{
+        color:black;
+    }
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #fff;
+        background: #212121;
+    }
+
+
+    .bg-colorsync {
+        background: #373737 !important;
+    }
+}
