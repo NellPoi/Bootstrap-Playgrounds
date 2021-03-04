@@ -14,11 +14,13 @@
     .text-secondary-colorsync {
 
     }
-    .text-navbar-brand-colorsync{
+
+    .text-navbar-brand-colorsync {
         color: black !important;
     }
-    .bi-colorsync{
-        color:black;
+
+    .bi-colorsync {
+        color: black;
     }
 }
 
