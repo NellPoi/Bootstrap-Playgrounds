@@ -12,7 +12,7 @@
     }
 
     .text-secondary-colorsync {
-
+        color: #686868;
     }
 
     .text-navbar-brand-colorsync {
@@ -21,6 +21,15 @@
 
     .bi-colorsync {
         color: black;
+    }
+
+    .btn-primary-colorsync {
+        background: #686868;
+        color: white;
+    }
+
+    .jumbotron {
+        background: white;
     }
 }
 
@@ -34,5 +43,18 @@
 
     .bg-colorsync {
         background: #373737 !important;
+    }
+
+    hr {
+        background: #686868;
+    }
+
+    .jumbotron {
+        background: #373737;
+    }
+
+    .btn-primary-colorsync {
+        background: #686868;
+        color: white;
     }
 }
