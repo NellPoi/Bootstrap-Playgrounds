@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
-    <title>Hello, world!</title>
+    <title>Playgrounds</title>
     <!-- 本地样式 -->
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/ColorSync.css">
+    <!-- 图标 -->
+    <link rel="shortcut icon" href="image/AppIcon.icns" type="image/x-icon">
+    <link rel="icon" href="image/AppIcon.icns" type="image/x-icon">
 </head>
 <body>
 <!-- NavBar -->
@@ -33,27 +36,127 @@
         </button>
     </nav>
 </div>
-<div class="container-fluid">
+<main class="container">
     <div class="jumbotron mt-5">
         <h1 class="display-4">我的 Playground</h1>
         <p class="lead">当前所有的构建平台可供选择，你可以选择合适的渠道访问</p>
         <hr class="my-4">
-        <h4>在开发频道中</h4>
-        <p>构建于 GitHub 平台，构建版本取决于NPM打包版本或GitHub项目更新进度<br>如果你想希望获得更可靠的更新，但又想给我们提供有意义的反馈，则可以尝试使用 Beta 版频道，但需自备梯子，且功能会有所被限制
-        </p>
-        <a class="btn btn-primary-colorsync" href="https://nellpoi.github.io/Bootstarp-Playgrounds/" role="button">GitHub
-            Page</a>
-
+        <h4>在 Beta 频道中</h4>
+        <p>如果你想希望获得更可靠的更新，但又想给我们提供有意义的反馈，则可以尝试使用 Beta 版频道</p>
+        <a class="btn btn-outline-colorsync" href="https://nellpoi.github.io/bootstrap-Playgrounds/" role="button">GitHub
+            Page 自动部署</a>
         <br><br>
-        <h4>在开发频道中</h4>
+        <h4>在 开发 频道中</h4>
         <p>如果你想成为第一个获得新更新，并且可以解决某些问题和错误的用户，则可以尝试使用开发频道</p>
-        <a class="btn btn-primary-colorsync" href="http://182.61.60.230" role="button">Transmit</a>
+        <a class="btn btn-outline-colorsync" href="http://182.61.60.230" role="button">idea-WebStorm 自动部署</a>
     </div>
-</div>
+    <h2>Explore</h2>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 style="display: inline" class="mb-3"><i class="bi-box-seam mr-3"></i>部署了什么？</h5>
+                    <div class="row mt-3">
+                        <div class="col-5">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-server-list"
+                                   data-toggle="list" href="#list-home" role="tab" aria-controls="home">服务器</a>
+                                <a class="list-group-item list-group-item-action" id="list-disk-list"
+                                   data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">云磁盘</a>
+                                <a class="list-group-item list-group-item-action" id="list-ip-list"
+                                   data-toggle="list" href="#list-messages" role="tab"
+                                   aria-controls="messages">弹性公网IP</a>
+                                <a class="list-group-item list-group-item-action" id="list-domain-list"
+                                   data-toggle="list" href="#list-settings" role="tab"
+                                   aria-controls="settings">域名服务</a>
+                                <a class="list-group-item list-group-item-action" id="list-environment-list"
+                                   data-toggle="list" href="#list-environment" role="tab"
+                                   aria-controls="environment">部署环境</a>
+                                <a class="list-group-item list-group-item-action" id="list-icp-list"
+                                   data-toggle="list" href="#list-icp" role="tab"
+                                   aria-controls="icp">ICP备案</a>
+                                <a class="list-group-item list-group-item-action" id="list-frame-list"
+                                   data-toggle="list" href="#list-frame" role="tab"
+                                   aria-controls="frame">前端框架</a>
+                            </div>
+                        </div>
+                        <div class="col-7">
+                            <div class="tab-content" id="nav-tabContent">
+                                <!-- 异步调用动态输出配置信息 -->
+                                <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                                     aria-labelledby="list-server-list">
+                                    <h6 id="instance-server-detail-type"></h6>
+                                    <span id="instance-server-detail-info"></span>
+                                </div>
+                                <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                                     aria-labelledby="list-disk-list">
+                                    <h6 id="instance-disk-detail-type"></h6>
+                                    <span id="instance-disk-detail-info"></span>
+                                </div>
+                                <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                                     aria-labelledby="list-ip-list">
+                                    <h6 id="instance-ip-detail-type"></h6>
+                                    <span id="instance-ip-detail-info"></span>
+                                </div>
+                                <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                                     aria-labelledby="list-domain-list">
+                                    <h6 id="instance-domain-detail-type"></h6>
+                                    <span id="instance-domain-detail-info"></span>
+                                </div>
+                                <div class="tab-pane fade" id="list-environment" role="tabpanel"
+                                     aria-labelledby="list-environment-list">
+                                    <h6 id="instance-environment-detail-type"></h6>
+                                    <span id="instance-environment-detail-info"></span>
+                                </div>
+                                <div class="tab-pane fade" id="list-icp" role="tabpanel"
+                                     aria-labelledby="list-icp-list">
+                                    <h6 id="instance-icp-detail-type"></h6>
+                                    <span id="instance-icp-detail-info"></span>
+                                </div>
+                                <div class="tab-pane fade" id="list-frame" role="tabpanel"
+                                     aria-labelledby="list-frame-list">
+                                    <h6 id="instance-frame-detail-type"></h6>
+                                    <span id="instance-frame-detail-info"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card" id="card__vconsole">
+                <div class="card-body">
+                    <i class="bi-terminal" style="font-size:x-large"></i>
+                    <h5>Tencent/vConsole</h5>
+                    <p class="mt-2">一个轻量、可拓展、针对手机网页的前端开发者调试面板。</p>
+                    <button class="btn btn-outline-colorsync"
+                            onclick="new VConsole();document.querySelector('#card__vconsole').style.display='none'">
+                        Tencent/vConsole
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+</main>
+<footer>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><i class="bi-github"></i></li>
+                <li class="breadcrumb-item" aria-current="page">Library</li>
+            </ol>
+        </nav>
+    </div>
+</footer>
 <!-- 请保证加载页面 jQuery 优先级高于框架 -->
 <!-- 核心框架组件 -->
+<script src="node_modules/vconsole/dist/vconsole.min.js"></script>
 <script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/playgrounds.js"></script>
+<script src="js/config.js"></script>
 </body>
 </html>

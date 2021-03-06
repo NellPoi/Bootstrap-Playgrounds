@@ -1,5 +1,5 @@
 {
-  "name": "bootstarp-playgrounds",
+  "name": "bootstrap-playgrounds",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap-icons": "^1.4.0",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "vconsole": "^3.4.0"
   }
 }

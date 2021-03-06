@@ -1,6 +1,16 @@
+:root {
+    --light-body-background: #F0F0F0;
+    --light-text-secondary: #686868;
+    --light-card-background: white;
+    --dark--body-background: #212121;
+    --dark--card-background: #373737;
+    --dark--primary-text: #d2d2d2;
+}
+
 @media (prefers-color-scheme: light) {
+    /* 白天模式 */
     body {
-        background: #F0F0F0;
+        background: var(--light-body-background) !important;
     }
 
     .bg-colorsync {
@@ -12,7 +22,7 @@
     }
 
     .text-secondary-colorsync {
-        color: #686868;
+        color: var(--light-text-secondary) !important;
     }
 
     .text-navbar-brand-colorsync {
@@ -20,41 +30,81 @@
     }
 
     .bi-colorsync {
-        color: black;
+        color: black !important;
     }
 
-    .btn-primary-colorsync {
-        background: #686868;
-        color: white;
-    }
-
+    /*.btn-primary-colorsync {*/
+    /*    background: #686868;*/
+    /*    color: white;*/
+    /*}*/
+    /*.btn-primary-colorsync:hover {*/
+    /*    transition: .5s all;*/
+    /*    background: white;*/
+    /*    color: #686868;*/
+    /*    border: 1px solid #686868;*/
+    /*}*/
     .jumbotron {
-        background: white;
+        background: var(--light-card-background) !important;
     }
 }
 
 /* dark mode */
 @media (prefers-color-scheme: dark) {
     body {
-        color: #fff;
-        background: #212121;
+        color: #fff !important;
+        background: var(--dark--body-background) !important;
     }
 
+    .text-secondary-colorsync {
+        color: var(--dark--primary-text) !important;
+    }
 
     .bg-colorsync {
         background: #373737 !important;
     }
 
     hr {
-        background: #686868;
+        background: #686868 !important;
     }
 
     .jumbotron {
-        background: #373737;
+        background: #373737 !important;
     }
 
-    .btn-primary-colorsync {
-        background: #686868;
-        color: white;
+    .btn-outline-colorsync {
+        border: 1px solid var(--dark--primary-text) !important;
+        color: white !important;
+    }
+
+    .btn-outline-colorsync:hover {
+        background: white !important;
+        color: black !important;
+    }
+
+    .card {
+        background: var(--dark--card-background) !important;
+    }
+
+    .list-group-item {
+        background: none;
+        border: 1px solid var(--dark--primary-text) !important;
+        color: var(--dark--primary-text) !important;
+        transition: .5s all !important;
+    }
+
+    .list-group-item.active {
+        transition: .5s background-color !important;
+        background: #515154 !important;
+        border: 1px solid white !important;
+    }
+
+    .list-group-item:hover {
+        transform: scale(1.1) !important;
+        box-shadow: 1px 1px 15px 1px var(--dark--card-background) !important;
+    }
+
+
+    nav * {
+        color: white !important;
     }
 }

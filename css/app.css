@@ -9,4 +9,27 @@
     margin-right: 1rem;
 }
 
+.breadcrumb {
+    background: none;
+}
 
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #D2D2D7;
+    content: ">";
+}
+
+.breadcrumb-item {
+    color: #515154;
+}
+
+.card {
+    margin: 1rem 0;
+}
+
+.list-group {
+    border: red
+}
+
+span[id^='instance'] {
+    font-size: small;
+}
