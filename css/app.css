@@ -14,7 +14,7 @@
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-    color: #D2D2D7;
+    color: #515154;
     content: ">";
 }
 
@@ -24,10 +24,6 @@
 
 .card {
     margin: 1rem 0;
-}
-
-.list-group {
-    border: red
 }
 
 span[id^='instance'] {
