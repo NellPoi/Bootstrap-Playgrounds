@@ -29,3 +29,7 @@
 span[id^='instance'] {
     font-size: small;
 }
+/**{*/
+/*    resize: both;*/
+/*    overflow: auto;*/
+/*}*/

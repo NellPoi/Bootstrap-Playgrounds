@@ -50,8 +50,8 @@ let interface_instanceDetail = [
 window.onload = () => {
     for (let i1 = 0; i1 <= interface_instanceDetail.length - 1; i1++) {
         for (let i2 = 0; i2 <= string_instanceDetail[i1].length - 1; i2++) {
-            console.debug(i1, i2, interface_instanceDetail.length)
-            console.info(document.querySelector(interface_instanceDetail[i1][i2]).innerHTML = string_instanceDetail[i1][i2])
+            // console.debug(i1, i2, interface_instanceDetail.length)
+            // console.info(document.querySelector(interface_instanceDetail[i1][i2]).innerHTML = string_instanceDetail[i1][i2])
             document.querySelector(interface_instanceDetail[i1][i2]).innerHTML = string_instanceDetail[i1][i2]
         }
     }

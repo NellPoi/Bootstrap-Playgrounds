@@ -80,7 +80,7 @@
                                    aria-controls="frame">前端框架</a>
                             </div>
                         </div>
-                        <div class="col-7">
+                        <div class="col-7 col-md-6">
                             <div class="tab-content" id="nav-tabContent">
                                 <!-- 异步调用动态输出配置信息 -->
                                 <div class="tab-pane fade show active" id="list-home" role="tabpanel"
@@ -129,12 +129,37 @@
                 <div class="card-body">
                     <i class="bi-terminal" style="font-size:x-large"></i>
                     <h5>Tencent/vConsole</h5>
-                    <p class="mt-2">一个轻量、可拓展、针对手机网页的前端开发者调试面板。</p>
+                    <p>一个轻量、可拓展、针对手机网页的前端开发者调试面板。</p>
                     <button class="btn btn-outline-colorsync"
                             onclick="new VConsole();document.querySelector('#card__vconsole').style.display='none'">
                         Tencent/vConsole
                     </button>
                 </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <i class="bi-calendar3" style="font-size:x-large"></i>
+                    <h5>福建船交课程表订阅(20软件技术4班)</h5>
+                    <p>
+                        支持iOS、iPadOS、macOS、watchOS等设备自动添加课程表订阅到日历App中
+                    </p>
+                    <a href="webcal://p40-caldav.icloud.com.cn/published/2/MTAwNTk3MTQyNTkxMDA1OSQUlL5LjR23OBQlLqTENeLI-LFS0CLYGIe6Ld52FtZmf6VXJcgSfnjMkUR6svLRRSYXStnAG6Kxga9eBKPuf7w"
+                       class="btn btn-outline-colorsync">一键订阅</a>
+                    <a href="p40-caldav.icloud.com.cn/published/2/MTAwNTk3MTQyNTkxMDA1OSQUlL5LjR23OBQlLqTENeLI-LFS0CLYGIe6Ld52FtZmf6VXJcgSfnjMkUR6svLRRSYXStnAG6Kxga9eBKPuf7w"
+                       class="btn btn-outline-colorsync">非iOS设备下载ics文件</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <i class="bi-terminal" style="font-size:x-large"></i>
+                <h5>iTerm</h5>
+                <p class="mt-2">这是一个临时的调试框</p>
+                <input type="text" id="debug-input-text1">
+                <input type="text" id="debug-input-text2">
+                <button class="btn btn-outline-colorsync" onclick="debug_Object()">Run</button>
             </div>
         </div>
     </div>
@@ -162,6 +187,6 @@
 <script src="js/bootstrap.js"></script>
 <script src="js/playgrounds.js"></script>
 <script src="js/config.js"></script>
-<script src="js/accesstype.js"></script>
+<script src="js/object.js"></script>
 </body>
 </html>
