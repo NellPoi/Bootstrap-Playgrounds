@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="www.10101.top" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Tencent-轻量应用服务器(通用型-SMALL2-60G-1000G)" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="www.10101.top">
+      <paths name="Tencent-轻量应用服务器(通用型-SMALL2-60G-1000G)">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />

@@ -39,18 +39,15 @@
 <main class="container">
     <div class="jumbotron mt-5">
         <h1 class="display-4">我的 Playground</h1>
-        <p class="lead">当前所有的构建平台可供选择，你可以选择合适的渠道访问</p>
-        <hr class="my-4">
-        <h4>在 Beta 频道中</h4>
-        <p>如果你想希望获得更可靠的更新，但又想给我们提供有意义的反馈，则可以尝试使用 Beta 版频道</p>
-        <a class="btn btn-outline-colorsync" href="https://nellpoi.github.io/Bootstrap-Playgrounds/" role="button">GitHub
-            Page 自动部署</a>
-        <br><br>
-        <h4>在 开发 频道中</h4>
-        <p>如果你想成为第一个获得新更新，并且可以解决某些问题和错误的用户，则可以尝试使用开发频道</p>
-        <a class="btn btn-outline-colorsync" href="http://182.61.60.230" role="button">idea-WebStorm 自动部署</a>
+        <p class="lead">Build apps using a powerful open language.</p>
+        <hr class="my-3">
+        <h2 class="font-weight-bolder">事件</h2>
+        <p>服务器已完成迁移。</p>
+        <p>新增子项目(/?)</p>
+        <p>更新友情链接</p>
+        <p class="lead">详细更新内容请访问 <a href="https://github.com/NellPoi/Bootstrap-Playgrounds">View on Github</a></p>
     </div>
-    <h2>Explore</h2>
+    <h2>Home</h2>
     <div class="row">
         <div class="col-12 col-md-6">
             <div class="card">
@@ -62,7 +59,8 @@
                                 <a class="list-group-item list-group-item-action active" id="list-server-list"
                                    data-toggle="list" href="#list-home" role="tab" aria-controls="home">服务器</a>
                                 <a class="list-group-item list-group-item-action" id="list-disk-list"
-                                   data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">云磁盘</a>
+                                   data-toggle="list" href="#list-profile" role="tab"
+                                   aria-controls="profile">云磁盘</a>
                                 <a class="list-group-item list-group-item-action" id="list-ip-list"
                                    data-toggle="list" href="#list-messages" role="tab"
                                    aria-controls="messages">弹性公网IP</a>
@@ -75,6 +73,9 @@
                                 <a class="list-group-item list-group-item-action" id="list-icp-list"
                                    data-toggle="list" href="#list-icp" role="tab"
                                    aria-controls="icp">ICP备案</a>
+                                <a class="list-group-item list-group-item-action" id="list-ssl-list"
+                                   data-toggle="list" href="#list-icp" role="tab"
+                                   aria-controls="icp">SSL 证书</a>
                                 <a class="list-group-item list-group-item-action" id="list-frame-list"
                                    data-toggle="list" href="#list-frame" role="tab"
                                    aria-controls="frame">前端框架</a>
@@ -113,6 +114,11 @@
                                     <h6 id="instance-icp-detail-type"></h6>
                                     <span id="instance-icp-detail-info"></span>
                                 </div>
+                                <div class="tab-pane fade" id="list-ssl" role="tabpanel"
+                                     aria-labelledby="list-ssl-list">
+                                    <h6 id="instance-ssl-detail-type"></h6>
+                                    <span id="instance-ssl-detail-info"></span>
+                                </div>
                                 <div class="tab-pane fade" id="list-frame" role="tabpanel"
                                      aria-labelledby="list-frame-list">
                                     <h6 id="instance-frame-detail-type"></h6>
@@ -139,7 +145,7 @@
             <div class="card">
                 <div class="card-body">
                     <i class="bi-calendar3" style="font-size:x-large"></i>
-                    <h5>福建船交课程表订阅(20软件技术4班)</h5>
+                    <h5>课程表订阅(20软4班)</h5>
                     <p>
                         支持iOS、iPadOS、macOS、watchOS等设备自动添加课程表订阅到日历App中
                     </p>
@@ -150,16 +156,28 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="col-12 col-md-6">
-        <div class="card">
-            <div class="card-body">
-                <i class="bi-terminal" style="font-size:x-large"></i>
-                <h5>iTerm</h5>
-                <p class="mt-2">这是一个临时的调试框</p>
-                <input type="text" id="debug-input-text1">
-                <input type="text" id="debug-input-text2">
-                <button class="btn btn-outline-colorsync" onclick="debug_Object()">Run</button>
+        <div class="col-12 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <i class="bi-terminal" style="font-size:x-large"></i>
+                    <h5>iTerm</h5>
+                    <p class="mt-2">这是一个临时的调试框</p>
+                    <input type="text" id="debug-input-text1">
+                    <input type="text" id="debug-input-text2">
+                    <button class="btn btn-outline-colorsync" onclick="debug_Object()">Run</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <i class="bi-code" style="font-size:x-large"></i>
+                    <h5>JavaScript 作业</h5>
+                    <p class="mt-2">JavaScript 作业示例</p>
+                    <button class="btn btn-outline-colorsync"
+                            onclick="window.location.href='/practical-training-1'">Run
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -173,9 +191,9 @@
                 <li class="breadcrumb-item" aria-current="page">Playgrounds</li>
             </ol>
         </nav>
-        <div class="text-secondary-colorsync ml-3">
+        <div class=" text-secondary-colorsync ml-3">
             <h6>友情链接</h6>
-            <a href="http://47.115.158.153/" class="text-secondary-colorsync">老叶的博客</a>
+            <a href="https://www.yebaomute.xyz" class="text-secondary-colorsync">老叶的博客</a>
         </div>
     </div>
 </footer>

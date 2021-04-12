@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db967a60-be83-46b1-806b-d59e4cd8f989" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/js/object.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/accesstype.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/object.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/object.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +48,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript 调试.index.html">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap Playgrounds/font/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap Playgrounds/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap Playgrounds/Learning-Javascript/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bootstrap.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/bootstrap.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap Playgrounds/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="config.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/config.js" working-dir="$PROJECT_DIR$/js">
@@ -74,9 +81,9 @@
       <list>
         <item itemvalue="JavaScript 调试.index.html" />
         <item itemvalue="Node.js.object.js" />
-        <item itemvalue="JavaScript 调试.index.html (1)" />
-        <item itemvalue="Node.js.bootstrap.js" />
         <item itemvalue="Node.js.config.js" />
+        <item itemvalue="JavaScript 调试.index.html (2)" />
+        <item itemvalue="JavaScript 调试.index.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +107,29 @@
       <workItem from="1615564381096" duration="310000" />
       <workItem from="1615615418007" duration="1394000" />
       <workItem from="1615712714728" duration="1782000" />
+      <workItem from="1615819367373" duration="85000" />
+      <workItem from="1615819465371" duration="2206000" />
+      <workItem from="1616393758071" duration="1227000" />
+      <workItem from="1616410553656" duration="15000" />
+      <workItem from="1616585456361" duration="1351000" />
+      <workItem from="1616829365489" duration="3164000" />
+      <workItem from="1617014576015" duration="3522000" />
+      <workItem from="1617062089610" duration="33000" />
+      <workItem from="1617064706181" duration="56000" />
+      <workItem from="1617065261935" duration="2000" />
+      <workItem from="1617203454913" duration="140000" />
+      <workItem from="1617326262577" duration="1013000" />
+      <workItem from="1617358227944" duration="2123000" />
+      <workItem from="1617362704708" duration="5189000" />
+      <workItem from="1617526410824" duration="117000" />
+      <workItem from="1617526544262" duration="3836000" />
+      <workItem from="1617533215317" duration="6043000" />
+      <workItem from="1617548482211" duration="3381000" />
+      <workItem from="1618057400222" duration="160000" />
+      <workItem from="1618226169139" duration="26000" />
+      <workItem from="1618226205824" duration="48000" />
+      <workItem from="1618226272068" duration="72000" />
+      <workItem from="1618228207883" duration="1161000" />
     </task>
     <servers />
   </component>
