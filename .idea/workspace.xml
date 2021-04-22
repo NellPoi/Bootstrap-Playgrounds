@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db967a60-be83-46b1-806b-d59e4cd8f989" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/object.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/object.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/playgrounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/playgrounds.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,6 +43,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -129,7 +127,11 @@
       <workItem from="1618226169139" duration="26000" />
       <workItem from="1618226205824" duration="48000" />
       <workItem from="1618226272068" duration="72000" />
-      <workItem from="1618228207883" duration="1161000" />
+      <workItem from="1618228207883" duration="1587000" />
+      <workItem from="1618277556782" duration="240000" />
+      <workItem from="1618310778026" duration="762000" />
+      <workItem from="1619054121300" duration="924000" />
+      <workItem from="1619091992423" duration="449000" />
     </task>
     <servers />
   </component>

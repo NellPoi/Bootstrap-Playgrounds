@@ -7,7 +7,7 @@
 // }
 // let arr1 = ["a", "b,", "c"]
 // console.log(arr1.push("1", "2"))
-// console.info(BREAK())
+// console.info (BREAK())
 // val("aaaaa")
 //
 // function val() {
