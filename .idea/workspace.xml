@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="db967a60-be83-46b1-806b-d59e4cd8f989" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+    <list default="true" id="db967a60-be83-46b1-806b-d59e4cd8f989" name="默认变更列表" comment="更新课程表订阅&#10;移除公告栏&#10;新增网页大赛作品入口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/playgrounds.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/playgrounds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,9 @@
   <component name="NamedScopeManager">
     <scope name="www.10101.top" pattern="!file:js/bootstrap.bundle.js&amp;&amp;!file:js/bootstrap.bundle.js.map&amp;&amp;!file:js/bootstrap.bundle.min.js&amp;&amp;!file:js/bootstrap.bundle.min.js.map&amp;&amp;!file:js/bootstrap.js&amp;&amp;!file:js/bootstrap.js.map&amp;&amp;!file:js/bootstrap.min.js&amp;&amp;!file:js/bootstrap.min.js.map&amp;&amp;!file:css/bootstrap-grid.css&amp;&amp;!file:css/bootstrap-grid.css.map&amp;&amp;!file:css/bootstrap-grid.min.css&amp;&amp;!file:css/bootstrap-grid.min.css.map&amp;&amp;!file:css/bootstrap-reboot.css&amp;&amp;!file:css/bootstrap-reboot.css.map&amp;&amp;!file:css/bootstrap-reboot.min.css&amp;&amp;!file:css/bootstrap-reboot.min.css.map&amp;&amp;!file:css/bootstrap.css&amp;&amp;!file:css/bootstrap.css.map&amp;&amp;!file:css/bootstrap.min.css&amp;&amp;!file:css/bootstrap.min.css.map" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1pNiaMp8JtrGrq8kNOCzro6LBwp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,36 +59,14 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RunManager" selected="JavaScript 调试.index.html">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap Playgrounds/font/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap Playgrounds/Learning-Javascript/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bootstrap Playgrounds/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="config.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/config.js" working-dir="$PROJECT_DIR$/js">
-      <method v="2" />
-    </configuration>
-    <configuration name="object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/object.js" working-dir="$PROJECT_DIR$/js">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript 调试.index.html" />
-        <item itemvalue="Node.js.object.js" />
-        <item itemvalue="Node.js.config.js" />
-        <item itemvalue="JavaScript 调试.index.html (2)" />
-        <item itemvalue="JavaScript 调试.index.html (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -132,11 +115,48 @@
       <workItem from="1618310778026" duration="762000" />
       <workItem from="1619054121300" duration="924000" />
       <workItem from="1619091992423" duration="449000" />
+      <workItem from="1619483313115" duration="1504000" />
+      <workItem from="1619684858486" duration="2133000" />
+      <workItem from="1619693222933" duration="258000" />
+      <workItem from="1619694975652" duration="20000" />
+      <workItem from="1619695489134" duration="250000" />
+      <workItem from="1619701412646" duration="407000" />
+      <workItem from="1619705860528" duration="486000" />
+      <workItem from="1620231176737" duration="517000" />
+      <workItem from="1620231737138" duration="597000" />
+      <workItem from="1620263924471" duration="1000" />
+      <workItem from="1629875174044" duration="615000" />
+      <workItem from="1630067336664" duration="188000" />
+      <workItem from="1630073390244" duration="28000" />
+      <workItem from="1630073839765" duration="4000" />
+      <workItem from="1630074131249" duration="14000" />
+      <workItem from="1630422387851" duration="64000" />
+      <workItem from="1630911445747" duration="22000" />
+      <workItem from="1630911479311" duration="552000" />
+      <workItem from="1630913371686" duration="13000" />
+      <workItem from="1630913394130" duration="242000" />
+      <workItem from="1630919579410" duration="271000" />
+      <workItem from="1630922366829" duration="546000" />
+      <workItem from="1630988964316" duration="4000" />
+      <workItem from="1631605197096" duration="5000" />
+      <workItem from="1631969569854" duration="508000" />
+      <workItem from="1632107423921" duration="26000" />
+      <workItem from="1632195986845" duration="596000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -184,5 +204,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新课程表订阅&#10;移除公告栏&#10;新增网页大赛作品入口" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新课程表订阅&#10;移除公告栏&#10;新增网页大赛作品入口" />
   </component>
 </project>

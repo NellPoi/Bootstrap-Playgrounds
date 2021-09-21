@@ -37,6 +37,7 @@ let string_instanceDetail = [
     '<h6>bootstrap-icons</h6>' +
     '<p>版本：1.4.0</p>' +
     '<h6>vConsole</h6>' +
+    '<h6>vConsole</h6>' +
     '<p>版本：3.4.0</p>']
 ], interface_instanceDetail = [
     ['#instance-server-detail-type', '#instance-server-detail-info'],
